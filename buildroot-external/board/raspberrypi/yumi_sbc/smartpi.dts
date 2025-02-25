@@ -1,0 +1,15 @@
+/dts-v1/;
+/include/ "allwinner-h3.dtsi";
+
+/ {
+    compatible = "yumi,smartpi";
+    model = "Yumi Smart Pi";
+
+    &uart0 {
+        status = "okay";
+    };
+
+    &gpio0 {
+        status = "okay";
+    };
+};
